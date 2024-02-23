@@ -83,6 +83,18 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<distributionManagement>
+		 <snapshotRepository>
+		    <id>nexusRepo</id>
+		    <url>http://13.38.82.66:8081/repository/sample-releases/</url>
+		 </snapshotRepository>
+		
+		<repository>
+		    <id>nexusRepo</id>
+		    <url>http://13.38.82.66:8081/repository/sample-releases/</url>
+		</repository>
+  	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
